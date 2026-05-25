@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UVC Video class - covers most USB endoscopes -->
+    <usb-device class="0x0E" />
+    <!-- Composite device (many cheap endoscopes) -->
+    <usb-device class="0x00" />
+    <!-- Common endoscope vendor IDs -->
+    <usb-device vendor-id="0x1908" />
+    <usb-device vendor-id="0x05A3" />
+    <usb-device vendor-id="0x534D" />
+    <usb-device vendor-id="0x0AC8" />
+    <usb-device vendor-id="0x046D" />
+    <usb-device vendor-id="0x18EC" />
+</resources>
